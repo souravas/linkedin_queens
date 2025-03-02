@@ -1,0 +1,1778 @@
+<div class="scaffold-layout
+    scaffold-layout--breakpoint-md
+    scaffold-layout--main
+
+    scaffold-layout--reflow
+
+     pr-game-web__scaffold-container
+              pr-game-web__scaffold-container--layout-override">
+    <section class="scaffold-layout-toolbar
+
+
+    ">
+  <div class="scaffold-layout-toolbar__content scaffold-layout-container
+      scaffold-layout-container--reflow
+      ">
+
+
+              <div class="pr-game-web__toolbar">
+                <div class="pr-game-web__toolbar-controls">
+                  <button aria-label="Back" id="ember10" class="artdeco-button artdeco-button--circle artdeco-button--muted artdeco-button--2 artdeco-button--tertiary ember-view pr-game-web__back-button
+                      " type="button">        <svg role="none" aria-hidden="true" class="artdeco-button__icon " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" data-supported-dps="24x24" data-test-icon="arrow-left-medium" data-rtl="true">
+<!---->
+    <use href="#arrow-left-medium" width="24" height="24"></use>
+</svg>
+
+
+<span class="artdeco-button__text">
+
+</span></button>
+
+                    <svg role="none" aria-hidden="true" class="header-game-name-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" data-supported-dps="24x24" data-test-icon="linkedin-bug-medium">
+<!---->
+    <use href="#linkedin-bug-medium" width="24" height="24"></use>
+</svg>
+
+
+                  <span class="pr-game-web__toolbar-title">
+                    Queens
+                  </span>
+                </div>
+                  <div class="display-flex align-items-center">
+<!---->
+      <span tabindex="-1" id="ember27" class="artdeco-hoverable-trigger artdeco-hoverable-trigger--content-placed-bottom artdeco-hoverable-trigger--is-hoverable ember-view">
+        <span aria-describedby="artdeco-hoverable-artdeco-gen-42" class="puzzle-difficulty-label">
+            Difficulty <b>HARD</b>
+        </span>
+        <div id="artdeco-gen-42" class="ember-view"><div id="ember29" class="ember-view"></div></div>
+      </span>
+
+                  </div>
+                                <div class="pr-game-web__toolbar-actions">
+
+    <div class="aux-controls-wrapper pr-game-web__aux-controls">
+
+  <button aria-label="Clear" id="aux-controls-clear" class="artdeco-button artdeco-button--muted artdeco-button--2 artdeco-button--secondary ember-view aux-controls-btn" data-aux-btn="clear" type="button"><!---->
+<span class="artdeco-button__text">
+    Clear
+</span></button>
+
+
+  <button aria-label="Tutorial" id="aux-controls-tutorial" class="artdeco-button artdeco-button--circle artdeco-button--muted artdeco-button--2 artdeco-button--tertiary ember-view aux-controls-btn" data-aux-btn="tutorial" type="button">        <svg role="none" aria-hidden="true" class="artdeco-button__icon " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" data-supported-dps="24x24" data-test-icon="question-medium" data-rtl="true" data-rtl-ignore="iw">
+<!---->
+    <use href="#question-medium" width="24" height="24"></use>
+</svg>
+
+
+<span class="artdeco-button__text">
+
+</span></button>
+
+    </div>
+
+                  <div id="ember13" class="artdeco-dropdown artdeco-dropdown--placement-bottom artdeco-dropdown--justification-right ember-view">
+                    <button aria-expanded="false" id="ember14" class="artdeco-dropdown__trigger artdeco-dropdown__trigger--placement-bottom ember-view artdeco-button artdeco-button--muted artdeco-button--2 artdeco-button--tertiary" type="button" tabindex="0">
+                      Settings
+
+  <li-icon aria-hidden="true" type="caret-filled-down-icon" class="artdeco-dropdown__trigger-icon" size="small"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+      <path d="M8 11L3 6h10z" fill-rule="evenodd"></path>
+    </svg></li-icon>
+</button>
+                    <div tabindex="-1" aria-hidden="true" id="ember15" class="artdeco-dropdown__content artdeco-dropdown--is-dropdown-element artdeco-dropdown__content--justification-right artdeco-dropdown__content--placement-bottom ember-view settings-dropdown-content"><!----></div>
+                  </div>
+                </div>
+              </div>
+
+
+  </div>
+</section>
+
+  <div class="scaffold-layout__inner scaffold-layout-container
+      scaffold-layout-container--reflow
+      ">
+<!---->
+      <div class="scaffold-layout__row scaffold-layout__content
+          scaffold-layout__content--main
+
+
+
+
+          ">
+<!---->
+            <main class="NnwvlKGpNQwGsfjmydcvisoTvOGFjBzJo">
+
+
+<!---->              <div class="pr-game-web__main-container pr-game-web__main-container--games">
+
+
+
+<!---->    <div class="grid-board-wrapper game-board">
+
+    <section class="queens-board
+
+
+
+
+        " tabindex="0" aria-label="Press enter to gameboard" style="--a11y-hint: &quot;Press enter to gameboard&quot;;" role="note">
+      <div id="queens-grid" class="queens-grid-no-gap" style="--rows: 10; --cols: 10">
+
+    <div class="queens-cell-with-border
+        cell-color-0
+
+        " data-cell-idx="0" aria-label="Empty cell of color Lavender, row 1, column 1" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-0
+
+        " data-cell-idx="1" aria-label="Empty cell of color Lavender, row 1, column 2" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-0
+
+        " data-cell-idx="2" aria-label="Empty cell of color Lavender, row 1, column 3" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-0
+
+        " data-cell-idx="3" aria-label="Empty cell of color Lavender, row 1, column 4" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-8
+
+        " data-cell-idx="4" aria-label="Empty cell of color Rose Pink, row 1, column 5" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-8
+
+        " data-cell-idx="5" aria-label="Empty cell of color Rose Pink, row 1, column 6" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-7
+
+        " data-cell-idx="6" aria-label="Empty cell of color Warm Beige, row 1, column 7" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-3
+
+        " data-cell-idx="7" aria-label="Queen of color Pastel Green, row 1, column 8" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+            <span class="cell-input cell-input--queen">
+
+
+
+    <svg class="queens-icon-svg" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Queen</title>
+  <g clip-path="url(#clip0_3812_70403)">
+    <path d="M23.25 7C23.25 7.69 22.69 8.25 22 8.25C21.89 8.25 21.78 8.21 21.68 8.18L19 17.99H5L2.32 8.18C2.21 8.21 2.11 8.25 2 8.25C1.31 8.25 0.75 7.69 0.75 7C0.75 6.31 1.31 5.75 2 5.75C2.69 5.75 3.25 6.31 3.25 7C3.25 7.31 3.13 7.59 2.94 7.8L9 13L11.65 4.18C11.14 4.03 10.75 3.57 10.75 3C10.75 2.31 11.31 1.75 12 1.75C12.69 1.75 13.25 2.31 13.25 3C13.25 3.56 12.87 4.02 12.35 4.18L15 13L21.06 7.8C20.87 7.58 20.75 7.31 20.75 7C20.75 6.31 21.31 5.75 22 5.75C22.69 5.75 23.25 6.31 23.25 7ZM19 19H5C4.45 19 4 19.45 4 20C4 20.55 4.45 21 5 21H19C19.55 21 20 20.55 20 20C20 19.45 19.55 19 19 19Z"></path>
+  </g>
+  <defs>
+    <clipPath id="clip0_3812_70403">
+      <rect width="24" height="24" fill="white"></rect>
+    </clipPath>
+  </defs>
+</svg>
+
+
+
+            </span>
+                  </div>
+<!---->      <div class="cell-border with-bottom with-left"></div>
+      <div class="cell-corner">
+          <div class="with-right-bottom"></div>
+<!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-3
+
+        " data-cell-idx="8" aria-label="Empty cell of color Pastel Green, row 1, column 9" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom"></div>
+      <div class="cell-corner">
+<!----><!---->          <div class="with-left-bottom"></div>
+<!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-3
+
+        " data-cell-idx="9" aria-label="Empty cell of color Pastel Green, row 1, column 10" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+<!----><!---->          <div class="with-left-bottom"></div>
+<!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-0
+
+        " data-cell-idx="10" aria-label="Empty cell of color Lavender, row 2, column 1" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+          <div class="with-right-bottom"></div>
+<!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-0
+
+        " data-cell-idx="11" aria-label="Empty cell of color Lavender, row 2, column 2" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-0
+
+        " data-cell-idx="12" aria-label="Empty cell of color Lavender, row 2, column 3" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom"></div>
+      <div class="cell-corner">
+          <div class="with-right-bottom"></div>
+<!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-0
+
+        " data-cell-idx="13" aria-label="Empty cell of color Lavender, row 2, column 4" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-right"></div>
+      <div class="cell-corner">
+<!----><!---->          <div class="with-left-bottom"></div>
+<!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-8
+
+        " data-cell-idx="14" aria-label="Queen of color Rose Pink, row 2, column 5" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+            <span class="cell-input cell-input--queen">
+
+
+
+    <svg class="queens-icon-svg" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Queen</title>
+  <g clip-path="url(#clip0_3812_70403)">
+    <path d="M23.25 7C23.25 7.69 22.69 8.25 22 8.25C21.89 8.25 21.78 8.21 21.68 8.18L19 17.99H5L2.32 8.18C2.21 8.21 2.11 8.25 2 8.25C1.31 8.25 0.75 7.69 0.75 7C0.75 6.31 1.31 5.75 2 5.75C2.69 5.75 3.25 6.31 3.25 7C3.25 7.31 3.13 7.59 2.94 7.8L9 13L11.65 4.18C11.14 4.03 10.75 3.57 10.75 3C10.75 2.31 11.31 1.75 12 1.75C12.69 1.75 13.25 2.31 13.25 3C13.25 3.56 12.87 4.02 12.35 4.18L15 13L21.06 7.8C20.87 7.58 20.75 7.31 20.75 7C20.75 6.31 21.31 5.75 22 5.75C22.69 5.75 23.25 6.31 23.25 7ZM19 19H5C4.45 19 4 19.45 4 20C4 20.55 4.45 21 5 21H19C19.55 21 20 20.55 20 20C20 19.45 19.55 19 19 19Z"></path>
+  </g>
+  <defs>
+    <clipPath id="clip0_3812_70403">
+      <rect width="24" height="24" fill="white"></rect>
+    </clipPath>
+  </defs>
+</svg>
+
+
+
+            </span>
+                  </div>
+<!---->      <div class="cell-border with-bottom with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-8
+
+        " data-cell-idx="15" aria-label="Empty cell of color Rose Pink, row 2, column 6" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-7
+
+        " data-cell-idx="16" aria-label="Empty cell of color Warm Beige, row 2, column 7" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-left"></div>
+      <div class="cell-corner">
+<!---->          <div class="with-right-top"></div>
+<!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-7
+
+        " data-cell-idx="17" aria-label="Empty cell of color Warm Beige, row 2, column 8" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-top"></div>
+      <div class="cell-corner">
+<!----><!---->          <div class="with-left-bottom"></div>
+<!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-4
+
+        " data-cell-idx="18" aria-label="Empty cell of color Light Gray, row 2, column 9" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-top with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-3
+
+        " data-cell-idx="19" aria-label="Empty cell of color Pastel Green, row 2, column 10" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-0
+
+        " data-cell-idx="20" aria-label="Empty cell of color Lavender, row 3, column 1" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-5
+
+        " data-cell-idx="21" aria-label="Empty cell of color Vibrant Coral, row 3, column 2" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-top with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-5
+
+        " data-cell-idx="22" aria-label="Empty cell of color Vibrant Coral, row 3, column 3" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-top"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="23" aria-label="Empty cell of color Lime Yellow, row 3, column 4" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-top with-left"></div>
+      <div class="cell-corner">
+<!---->          <div class="with-right-top"></div>
+<!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="24" aria-label="Empty cell of color Lime Yellow, row 3, column 5" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-top"></div>
+      <div class="cell-corner">
+<!----><!----><!---->          <div class="with-left-top"></div>
+      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="25" aria-label="Empty cell of color Lime Yellow, row 3, column 6" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-top"></div>
+      <div class="cell-corner">
+<!---->          <div class="with-right-top"></div>
+<!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="26" aria-label="Empty cell of color Lime Yellow, row 3, column 7" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-top"></div>
+      <div class="cell-corner">
+<!----><!----><!---->          <div class="with-left-top"></div>
+      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-7
+
+        " data-cell-idx="27" aria-label="Empty cell of color Warm Beige, row 3, column 8" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-4
+
+        " data-cell-idx="28" aria-label="Empty cell of color Light Gray, row 3, column 9" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-3
+
+        " data-cell-idx="29" aria-label="Empty cell of color Pastel Green, row 3, column 10" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-0
+
+        " data-cell-idx="30" aria-label="Empty cell of color Lavender, row 4, column 1" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-5
+
+        " data-cell-idx="31" aria-label="Empty cell of color Vibrant Coral, row 4, column 2" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-left"></div>
+      <div class="cell-corner">
+          <div class="with-right-bottom"></div>
+<!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-5
+
+        " data-cell-idx="32" aria-label="Empty cell of color Vibrant Coral, row 4, column 3" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="33" aria-label="Empty cell of color Lime Yellow, row 4, column 4" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-left"></div>
+      <div class="cell-corner">
+<!----><!---->          <div class="with-left-bottom"></div>
+<!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="34" aria-label="Empty cell of color Lime Yellow, row 4, column 5" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="35" aria-label="Empty cell of color Lime Yellow, row 4, column 6" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="36" aria-label="Empty cell of color Lime Yellow, row 4, column 7" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-7
+
+        " data-cell-idx="37" aria-label="Empty cell of color Warm Beige, row 4, column 8" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-4
+
+        " data-cell-idx="38" aria-label="Empty cell of color Light Gray, row 4, column 9" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-left"></div>
+      <div class="cell-corner">
+<!---->          <div class="with-right-top"></div>
+<!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-4
+
+        " data-cell-idx="39" aria-label="Empty cell of color Light Gray, row 4, column 10" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-top"></div>
+      <div class="cell-corner">
+<!----><!---->          <div class="with-left-bottom"></div>
+<!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-5
+
+        " data-cell-idx="40" aria-label="Empty cell of color Vibrant Coral, row 5, column 1" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-top"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-5
+
+        " data-cell-idx="41" aria-label="Empty cell of color Vibrant Coral, row 5, column 2" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!---->          <div class="with-left-top"></div>
+      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-2
+
+        " data-cell-idx="42" aria-label="Empty cell of color Soft Blue, row 5, column 3" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-top with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="43" aria-label="Empty cell of color Lime Yellow, row 5, column 4" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!---->          <div class="with-left-top"></div>
+      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="44" aria-label="Empty cell of color Lime Yellow, row 5, column 5" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+<!----><!---->          <div class="with-left-bottom"></div>
+<!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="45" aria-label="Empty cell of color Lime Yellow, row 5, column 6" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+          <div class="with-right-bottom"></div>
+<!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="46" aria-label="Empty cell of color Lime Yellow, row 5, column 7" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-7
+
+        " data-cell-idx="47" aria-label="Empty cell of color Warm Beige, row 5, column 8" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-left"></div>
+      <div class="cell-corner">
+<!---->          <div class="with-right-top"></div>
+<!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-7
+
+        " data-cell-idx="48" aria-label="Empty cell of color Warm Beige, row 5, column 9" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-top"></div>
+      <div class="cell-corner">
+          <div class="with-right-bottom"></div>
+<!---->          <div class="with-left-bottom"></div>
+<!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-4
+
+        " data-cell-idx="49" aria-label="Empty cell of color Light Gray, row 5, column 10" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-2
+
+        " data-cell-idx="50" aria-label="Empty cell of color Soft Blue, row 6, column 1" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-top"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-2
+
+        " data-cell-idx="51" aria-label="Empty cell of color Soft Blue, row 6, column 2" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-top"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-2
+
+        " data-cell-idx="52" aria-label="Empty cell of color Soft Blue, row 6, column 3" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+<!---->          <div class="with-right-top"></div>
+<!---->          <div class="with-left-top"></div>
+      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-2
+
+        " data-cell-idx="53" aria-label="Empty cell of color Soft Blue, row 6, column 4" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-top"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="54" aria-label="Empty cell of color Lime Yellow, row 6, column 5" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="55" aria-label="Empty cell of color Lime Yellow, row 6, column 6" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-1
+
+        " data-cell-idx="56" aria-label="Empty cell of color Peach Orange, row 6, column 7" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-top with-left"></div>
+      <div class="cell-corner">
+<!---->          <div class="with-right-top"></div>
+<!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-1
+
+        " data-cell-idx="57" aria-label="Empty cell of color Peach Orange, row 6, column 8" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-top"></div>
+      <div class="cell-corner">
+<!----><!----><!---->          <div class="with-left-top"></div>
+      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-7
+
+        " data-cell-idx="58" aria-label="Empty cell of color Warm Beige, row 6, column 9" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-right with-left"></div>
+      <div class="cell-corner">
+<!---->          <div class="with-right-top"></div>
+<!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-1
+
+        " data-cell-idx="59" aria-label="Empty cell of color Peach Orange, row 6, column 10" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-top with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-2
+
+        " data-cell-idx="60" aria-label="Empty cell of color Soft Blue, row 7, column 1" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+          <div class="with-right-bottom"></div>
+<!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-2
+
+        " data-cell-idx="61" aria-label="Empty cell of color Soft Blue, row 7, column 2" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-2
+
+        " data-cell-idx="62" aria-label="Empty cell of color Soft Blue, row 7, column 3" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+          <div class="with-right-bottom"></div>
+<!---->          <div class="with-left-bottom"></div>
+<!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-2
+
+        " data-cell-idx="63" aria-label="Empty cell of color Soft Blue, row 7, column 4" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="64" aria-label="Empty cell of color Lime Yellow, row 7, column 5" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-left"></div>
+      <div class="cell-corner">
+<!----><!---->          <div class="with-left-bottom"></div>
+<!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="65" aria-label="Empty cell of color Lime Yellow, row 7, column 6" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right"></div>
+      <div class="cell-corner">
+          <div class="with-right-bottom"></div>
+<!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-1
+
+        " data-cell-idx="66" aria-label="Empty cell of color Peach Orange, row 7, column 7" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-1
+
+        " data-cell-idx="67" aria-label="Empty cell of color Peach Orange, row 7, column 8" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+          <div class="with-right-bottom"></div>
+          <div class="with-right-top"></div>
+          <div class="with-left-bottom"></div>
+<!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-1
+
+        " data-cell-idx="68" aria-label="Empty cell of color Peach Orange, row 7, column 9" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-top"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-1
+
+        " data-cell-idx="69" aria-label="Empty cell of color Peach Orange, row 7, column 10" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+<!----><!---->          <div class="with-left-bottom"></div>
+          <div class="with-left-top"></div>
+      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-2
+
+        " data-cell-idx="70" aria-label="Empty cell of color Soft Blue, row 8, column 1" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="71" aria-label="Empty cell of color Muted Teal, row 8, column 2" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-top with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-2
+
+        " data-cell-idx="72" aria-label="Empty cell of color Soft Blue, row 8, column 3" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-right with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="73" aria-label="Empty cell of color Muted Teal, row 8, column 4" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-top with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="74" aria-label="Empty cell of color Lime Yellow, row 8, column 5" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!---->          <div class="with-left-top"></div>
+      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="75" aria-label="Empty cell of color Lime Yellow, row 8, column 6" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right"></div>
+      <div class="cell-corner">
+<!---->          <div class="with-right-top"></div>
+<!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="76" aria-label="Empty cell of color Muted Teal, row 8, column 7" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-top with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-1
+
+        " data-cell-idx="77" aria-label="Empty cell of color Peach Orange, row 8, column 8" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-right with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="78" aria-label="Empty cell of color Muted Teal, row 8, column 9" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-top with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-1
+
+        " data-cell-idx="79" aria-label="Empty cell of color Peach Orange, row 8, column 10" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-2
+
+        " data-cell-idx="80" aria-label="Empty cell of color Soft Blue, row 9, column 1" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="81" aria-label="Empty cell of color Muted Teal, row 9, column 2" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-left"></div>
+      <div class="cell-corner">
+<!---->          <div class="with-right-top"></div>
+<!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="82" aria-label="Empty cell of color Muted Teal, row 9, column 3" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-top"></div>
+      <div class="cell-corner">
+<!----><!---->          <div class="with-left-bottom"></div>
+<!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="83" aria-label="Empty cell of color Muted Teal, row 9, column 4" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!---->          <div class="with-left-top"></div>
+      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="84" aria-label="Empty cell of color Lime Yellow, row 9, column 5" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-6
+
+        " data-cell-idx="85" aria-label="Empty cell of color Lime Yellow, row 9, column 6" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="86" aria-label="Empty cell of color Muted Teal, row 9, column 7" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-left"></div>
+      <div class="cell-corner">
+<!---->          <div class="with-right-top"></div>
+<!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="87" aria-label="Empty cell of color Muted Teal, row 9, column 8" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-top"></div>
+      <div class="cell-corner">
+          <div class="with-right-bottom"></div>
+<!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="88" aria-label="Empty cell of color Muted Teal, row 9, column 9" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-bottom with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!---->          <div class="with-left-top"></div>
+      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-1
+
+        " data-cell-idx="89" aria-label="Empty cell of color Peach Orange, row 9, column 10" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-2
+
+        " data-cell-idx="90" aria-label="Empty cell of color Soft Blue, row 10, column 1" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+<!---->          <div class="with-right-top"></div>
+<!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-2
+
+        " data-cell-idx="91" aria-label="Empty cell of color Soft Blue, row 10, column 2" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right with-top"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="92" aria-label="Empty cell of color Muted Teal, row 10, column 3" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="93" aria-label="Empty cell of color Muted Teal, row 10, column 4" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+<!---->          <div class="with-right-top"></div>
+<!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="94" aria-label="Empty cell of color Muted Teal, row 10, column 5" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-top"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="95" aria-label="Empty cell of color Muted Teal, row 10, column 6" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-top"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="96" aria-label="Empty cell of color Muted Teal, row 10, column 7" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+<!----><!----><!---->          <div class="with-left-top"></div>
+      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-9
+
+        " data-cell-idx="97" aria-label="Empty cell of color Muted Teal, row 10, column 8" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-right"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-1
+
+        " data-cell-idx="98" aria-label="Empty cell of color Peach Orange, row 10, column 9" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border with-top with-left"></div>
+      <div class="cell-corner">
+<!----><!----><!----><!---->      </div>
+    </div>
+
+
+    <div class="queens-cell-with-border
+        cell-color-1
+
+        " data-cell-idx="99" aria-label="Empty cell of color Peach Orange, row 10, column 10" tabindex="-1" role="button">
+<!----><!---->        <div class="cell-content">
+<!---->        </div>
+<!---->      <div class="cell-border"></div>
+      <div class="cell-corner">
+<!----><!----><!---->          <div class="with-left-top"></div>
+      </div>
+    </div>
+
+      </div>
+<!---->    </section>
+
+
+    <div class="under-board-controls-container under-board-controls-container--queens">
+      <button disabled="" id="ember32" class="artdeco-button artdeco-button--muted artdeco-button--2 artdeco-button--secondary ember-view games-control-btn under-board-controls-btn" data-control-btn="undo" type="button"><!---->
+<span class="artdeco-button__text">
+    Undo
+</span></button>
+
+        <button id="ember33" class="artdeco-button artdeco-button--muted artdeco-button--2 artdeco-button--secondary ember-view games-control-btn under-board-controls-btn
+
+            " data-control-btn="hint" type="button"><!---->
+<span class="artdeco-button__text">
+    Hint
+</span></button>
+
+    </div>
+
+          <div class="queens-card queens-error">
+                Feeling stuck? Tap “Hint” to get a nudge in the right direction. Or, watch a video solve-through of a sample puzzle <a target="_blank" href="https://www.linkedin.com/posts/lakshmansom_introducing-the-ultimate-queens-tutorial-activity-7225963270992523264-Q9mN/">here</a>.
+          </div>
+
+
+    <div class="games-web-card queens-card">
+      <div class="games-web-card-header">
+        <span>🎉 Welcome, guest player!</span>
+        <button aria-label="Expand card" aria-expanded="false" aria-controls="ember34-card-content" id="ember35" class="artdeco-button artdeco-button--circle artdeco-button--muted artdeco-button--1 artdeco-button--tertiary ember-view" type="button">        <svg role="none" aria-hidden="true" class="artdeco-button__icon " xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16" data-test-icon="chevron-down-small">
+<!---->
+    <use href="#chevron-down-small" width="16" height="16"></use>
+</svg>
+
+
+<span class="artdeco-button__text">
+
+</span></button>
+      </div>
+      <div id="ember34-card-content" class="card-hidden">
+
+            We’re providing you with a partially solved grid to help you ramp up. Log in after you play to start with an empty grid the next time you play. Have fun!
+
+      </div>
+    </div>
+
+
+
+
+    <div class="games-web-card queens-card">
+      <div class="games-web-card-header">
+        <span>How to play</span>
+        <button aria-label="Collapse game instructions" aria-expanded="true" aria-controls="ember36-card-content" id="ember37" class="artdeco-button artdeco-button--circle artdeco-button--muted artdeco-button--1 artdeco-button--tertiary ember-view" type="button">        <svg role="none" aria-hidden="true" class="artdeco-button__icon " xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16" data-test-icon="chevron-up-small">
+<!---->
+    <use href="#chevron-up-small" width="16" height="16"></use>
+</svg>
+
+
+<span class="artdeco-button__text">
+
+</span></button>
+      </div>
+      <div id="ember36-card-content" class="card-expanded">
+
+      <ol class="instructions-list">
+        <li class="instructions-list-item">
+
+
+          Your goal is to have <b>exactly one</b>
+
+    <svg class="queens-icon-svg queens-card-queen" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Queen</title>
+  <g clip-path="url(#clip0_3812_70403)">
+    <path d="M23.25 7C23.25 7.69 22.69 8.25 22 8.25C21.89 8.25 21.78 8.21 21.68 8.18L19 17.99H5L2.32 8.18C2.21 8.21 2.11 8.25 2 8.25C1.31 8.25 0.75 7.69 0.75 7C0.75 6.31 1.31 5.75 2 5.75C2.69 5.75 3.25 6.31 3.25 7C3.25 7.31 3.13 7.59 2.94 7.8L9 13L11.65 4.18C11.14 4.03 10.75 3.57 10.75 3C10.75 2.31 11.31 1.75 12 1.75C12.69 1.75 13.25 2.31 13.25 3C13.25 3.56 12.87 4.02 12.35 4.18L15 13L21.06 7.8C20.87 7.58 20.75 7.31 20.75 7C20.75 6.31 21.31 5.75 22 5.75C22.69 5.75 23.25 6.31 23.25 7ZM19 19H5C4.45 19 4 19.45 4 20C4 20.55 4.45 21 5 21H19C19.55 21 20 20.55 20 20C20 19.45 19.55 19 19 19Z"></path>
+  </g>
+  <defs>
+    <clipPath id="clip0_3812_70403">
+      <rect width="24" height="24" fill="white"></rect>
+    </clipPath>
+  </defs>
+</svg>
+
+           in each <b>row, column, and color region.</b>
+
+
+        </li>
+        <li class="instructions-list-item">
+
+
+          Tap once to place X and tap twice for
+          <div class="svg-img-suffix">
+
+    <svg class="queens-icon-svg queens-card-queen" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Queen</title>
+  <g clip-path="url(#clip0_3812_70403)">
+    <path d="M23.25 7C23.25 7.69 22.69 8.25 22 8.25C21.89 8.25 21.78 8.21 21.68 8.18L19 17.99H5L2.32 8.18C2.21 8.21 2.11 8.25 2 8.25C1.31 8.25 0.75 7.69 0.75 7C0.75 6.31 1.31 5.75 2 5.75C2.69 5.75 3.25 6.31 3.25 7C3.25 7.31 3.13 7.59 2.94 7.8L9 13L11.65 4.18C11.14 4.03 10.75 3.57 10.75 3C10.75 2.31 11.31 1.75 12 1.75C12.69 1.75 13.25 2.31 13.25 3C13.25 3.56 12.87 4.02 12.35 4.18L15 13L21.06 7.8C20.87 7.58 20.75 7.31 20.75 7C20.75 6.31 21.31 5.75 22 5.75C22.69 5.75 23.25 6.31 23.25 7ZM19 19H5C4.45 19 4 19.45 4 20C4 20.55 4.45 21 5 21H19C19.55 21 20 20.55 20 20C20 19.45 19.55 19 19 19Z"></path>
+  </g>
+  <defs>
+    <clipPath id="clip0_3812_70403">
+      <rect width="24" height="24" fill="white"></rect>
+    </clipPath>
+  </defs>
+</svg>
+  .
+          </div>
+          Use X to mark where
+
+    <svg class="queens-icon-svg queens-card-queen" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Queen</title>
+  <g clip-path="url(#clip0_3812_70403)">
+    <path d="M23.25 7C23.25 7.69 22.69 8.25 22 8.25C21.89 8.25 21.78 8.21 21.68 8.18L19 17.99H5L2.32 8.18C2.21 8.21 2.11 8.25 2 8.25C1.31 8.25 0.75 7.69 0.75 7C0.75 6.31 1.31 5.75 2 5.75C2.69 5.75 3.25 6.31 3.25 7C3.25 7.31 3.13 7.59 2.94 7.8L9 13L11.65 4.18C11.14 4.03 10.75 3.57 10.75 3C10.75 2.31 11.31 1.75 12 1.75C12.69 1.75 13.25 2.31 13.25 3C13.25 3.56 12.87 4.02 12.35 4.18L15 13L21.06 7.8C20.87 7.58 20.75 7.31 20.75 7C20.75 6.31 21.31 5.75 22 5.75C22.69 5.75 23.25 6.31 23.25 7ZM19 19H5C4.45 19 4 19.45 4 20C4 20.55 4.45 21 5 21H19C19.55 21 20 20.55 20 20C20 19.45 19.55 19 19 19Z"></path>
+  </g>
+  <defs>
+    <clipPath id="clip0_3812_70403">
+      <rect width="24" height="24" fill="white"></rect>
+    </clipPath>
+  </defs>
+</svg>
+
+           cannot be placed.
+
+
+        </li>
+        <li class="instructions-list-item">
+
+
+          Two
+
+    <svg class="queens-icon-svg queens-card-queen" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Queen</title>
+  <g clip-path="url(#clip0_3812_70403)">
+    <path d="M23.25 7C23.25 7.69 22.69 8.25 22 8.25C21.89 8.25 21.78 8.21 21.68 8.18L19 17.99H5L2.32 8.18C2.21 8.21 2.11 8.25 2 8.25C1.31 8.25 0.75 7.69 0.75 7C0.75 6.31 1.31 5.75 2 5.75C2.69 5.75 3.25 6.31 3.25 7C3.25 7.31 3.13 7.59 2.94 7.8L9 13L11.65 4.18C11.14 4.03 10.75 3.57 10.75 3C10.75 2.31 11.31 1.75 12 1.75C12.69 1.75 13.25 2.31 13.25 3C13.25 3.56 12.87 4.02 12.35 4.18L15 13L21.06 7.8C20.87 7.58 20.75 7.31 20.75 7C20.75 6.31 21.31 5.75 22 5.75C22.69 5.75 23.25 6.31 23.25 7ZM19 19H5C4.45 19 4 19.45 4 20C4 20.55 4.45 21 5 21H19C19.55 21 20 20.55 20 20C20 19.45 19.55 19 19 19Z"></path>
+  </g>
+  <defs>
+    <clipPath id="clip0_3812_70403">
+      <rect width="24" height="24" fill="white"></rect>
+    </clipPath>
+  </defs>
+</svg>
+
+           cannot touch each other, not even diagonally.
+
+
+        </li>
+      </ol>
+
+      </div>
+    </div>
+
+
+
+    <div class="games-web-card queens-card">
+      <div class="games-web-card-header">
+        <span>Examples</span>
+        <button aria-label="Collapse game examples" aria-expanded="true" aria-controls="ember38-card-content" id="ember39" class="artdeco-button artdeco-button--circle artdeco-button--muted artdeco-button--1 artdeco-button--tertiary ember-view" type="button">        <svg role="none" aria-hidden="true" class="artdeco-button__icon " xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16" data-test-icon="chevron-up-small">
+<!---->
+    <use href="#chevron-up-small" width="16" height="16"></use>
+</svg>
+
+
+<span class="artdeco-button__text">
+
+</span></button>
+      </div>
+      <div id="ember38-card-content" class="card-expanded">
+
+
+  <section id="ember40" class="artdeco-carousel ember-view instructions-examples-carousel"><div class="artdeco-carousel__heading
+    artdeco-carousel__heading--custom">
+
+    <!---->
+<!---->
+<!----></div>
+
+<div class="artdeco-carousel__content">
+
+    <ul id="ember41" class="artdeco-carousel__slider ember-view" style="transform: translateX(0px);">
+        <li tabindex="-1" style="width: 216px; max-width: none; min-width: auto;" data-item-index="0" id="ember42" class="artdeco-carousel__item active ember-view"><div data-test-display="display" class="artdeco-carousel__item-container">
+
+          <div class="instructions-examples-slide-container">
+            <img src="https://static.licdn.com/aero-v1/sc/h/cxvywhn0ycytnmnfjsas8olhn" alt="Each row can only have one Queen." width="200" height="200" draggable="false">
+            <div class="instructions-examples-slide-text">
+
+
+          Each row can only have one
+          <div class="svg-img-suffix">
+
+    <svg class="queens-icon-svg queens-card-queen" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Queen</title>
+  <g clip-path="url(#clip0_3812_70403)">
+    <path d="M23.25 7C23.25 7.69 22.69 8.25 22 8.25C21.89 8.25 21.78 8.21 21.68 8.18L19 17.99H5L2.32 8.18C2.21 8.21 2.11 8.25 2 8.25C1.31 8.25 0.75 7.69 0.75 7C0.75 6.31 1.31 5.75 2 5.75C2.69 5.75 3.25 6.31 3.25 7C3.25 7.31 3.13 7.59 2.94 7.8L9 13L11.65 4.18C11.14 4.03 10.75 3.57 10.75 3C10.75 2.31 11.31 1.75 12 1.75C12.69 1.75 13.25 2.31 13.25 3C13.25 3.56 12.87 4.02 12.35 4.18L15 13L21.06 7.8C20.87 7.58 20.75 7.31 20.75 7C20.75 6.31 21.31 5.75 22 5.75C22.69 5.75 23.25 6.31 23.25 7ZM19 19H5C4.45 19 4 19.45 4 20C4 20.55 4.45 21 5 21H19C19.55 21 20 20.55 20 20C20 19.45 19.55 19 19 19Z"></path>
+  </g>
+  <defs>
+    <clipPath id="clip0_3812_70403">
+      <rect width="24" height="24" fill="white"></rect>
+    </clipPath>
+  </defs>
+</svg>
+  .
+          </div>
+
+
+            </div>
+          </div>
+
+</div></li>
+        <li tabindex="-1" style="width: 216px; max-width: none; min-width: auto;" data-item-index="1" id="ember43" class="artdeco-carousel__item ember-view"><div data-test-display="display" class="artdeco-carousel__item-container">
+
+          <div class="instructions-examples-slide-container">
+            <img src="https://static.licdn.com/aero-v1/sc/h/2fcn9tb2bxa3r0vx087jo822j" alt="Each column can also only have one Queen." width="200" height="200" draggable="false">
+            <div class="instructions-examples-slide-text">
+
+
+          Each column can also only have one
+          <div class="svg-img-suffix">
+
+    <svg class="queens-icon-svg queens-card-queen" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Queen</title>
+  <g clip-path="url(#clip0_3812_70403)">
+    <path d="M23.25 7C23.25 7.69 22.69 8.25 22 8.25C21.89 8.25 21.78 8.21 21.68 8.18L19 17.99H5L2.32 8.18C2.21 8.21 2.11 8.25 2 8.25C1.31 8.25 0.75 7.69 0.75 7C0.75 6.31 1.31 5.75 2 5.75C2.69 5.75 3.25 6.31 3.25 7C3.25 7.31 3.13 7.59 2.94 7.8L9 13L11.65 4.18C11.14 4.03 10.75 3.57 10.75 3C10.75 2.31 11.31 1.75 12 1.75C12.69 1.75 13.25 2.31 13.25 3C13.25 3.56 12.87 4.02 12.35 4.18L15 13L21.06 7.8C20.87 7.58 20.75 7.31 20.75 7C20.75 6.31 21.31 5.75 22 5.75C22.69 5.75 23.25 6.31 23.25 7ZM19 19H5C4.45 19 4 19.45 4 20C4 20.55 4.45 21 5 21H19C19.55 21 20 20.55 20 20C20 19.45 19.55 19 19 19Z"></path>
+  </g>
+  <defs>
+    <clipPath id="clip0_3812_70403">
+      <rect width="24" height="24" fill="white"></rect>
+    </clipPath>
+  </defs>
+</svg>
+  .
+          </div>
+
+
+            </div>
+          </div>
+
+</div></li>
+        <li tabindex="-1" style="width: 216px; max-width: none; min-width: auto;" data-item-index="2" id="ember44" class="artdeco-carousel__item ember-view"><div data-test-display="display" class="artdeco-carousel__item-container">
+
+          <div class="instructions-examples-slide-container">
+            <img src="https://static.licdn.com/aero-v1/sc/h/3h4xsvbdrw63rrbvcykx1wrr6" alt="Each color region can also only have one Queen." width="200" height="200" draggable="false">
+            <div class="instructions-examples-slide-text">
+
+
+          Each color region can also only have one
+          <div class="svg-img-suffix">
+
+    <svg class="queens-icon-svg queens-card-queen" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Queen</title>
+  <g clip-path="url(#clip0_3812_70403)">
+    <path d="M23.25 7C23.25 7.69 22.69 8.25 22 8.25C21.89 8.25 21.78 8.21 21.68 8.18L19 17.99H5L2.32 8.18C2.21 8.21 2.11 8.25 2 8.25C1.31 8.25 0.75 7.69 0.75 7C0.75 6.31 1.31 5.75 2 5.75C2.69 5.75 3.25 6.31 3.25 7C3.25 7.31 3.13 7.59 2.94 7.8L9 13L11.65 4.18C11.14 4.03 10.75 3.57 10.75 3C10.75 2.31 11.31 1.75 12 1.75C12.69 1.75 13.25 2.31 13.25 3C13.25 3.56 12.87 4.02 12.35 4.18L15 13L21.06 7.8C20.87 7.58 20.75 7.31 20.75 7C20.75 6.31 21.31 5.75 22 5.75C22.69 5.75 23.25 6.31 23.25 7ZM19 19H5C4.45 19 4 19.45 4 20C4 20.55 4.45 21 5 21H19C19.55 21 20 20.55 20 20C20 19.45 19.55 19 19 19Z"></path>
+  </g>
+  <defs>
+    <clipPath id="clip0_3812_70403">
+      <rect width="24" height="24" fill="white"></rect>
+    </clipPath>
+  </defs>
+</svg>
+  .
+          </div>
+
+
+            </div>
+          </div>
+
+</div></li>
+        <li tabindex="-1" style="width: 216px; max-width: none; min-width: auto;" data-item-index="3" id="ember45" class="artdeco-carousel__item ember-view"><div data-test-display="display" class="artdeco-carousel__item-container">
+
+          <div class="instructions-examples-slide-container">
+            <img src="https://static.licdn.com/aero-v1/sc/h/2zea5am8mw1l88xlz12yxtqrr" alt="Two Queen cannot touch each other, not even diagonally." width="200" height="200" draggable="false">
+            <div class="instructions-examples-slide-text">
+
+
+          Two
+
+    <svg class="queens-icon-svg queens-card-queen" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Queen</title>
+  <g clip-path="url(#clip0_3812_70403)">
+    <path d="M23.25 7C23.25 7.69 22.69 8.25 22 8.25C21.89 8.25 21.78 8.21 21.68 8.18L19 17.99H5L2.32 8.18C2.21 8.21 2.11 8.25 2 8.25C1.31 8.25 0.75 7.69 0.75 7C0.75 6.31 1.31 5.75 2 5.75C2.69 5.75 3.25 6.31 3.25 7C3.25 7.31 3.13 7.59 2.94 7.8L9 13L11.65 4.18C11.14 4.03 10.75 3.57 10.75 3C10.75 2.31 11.31 1.75 12 1.75C12.69 1.75 13.25 2.31 13.25 3C13.25 3.56 12.87 4.02 12.35 4.18L15 13L21.06 7.8C20.87 7.58 20.75 7.31 20.75 7C20.75 6.31 21.31 5.75 22 5.75C22.69 5.75 23.25 6.31 23.25 7ZM19 19H5C4.45 19 4 19.45 4 20C4 20.55 4.45 21 5 21H19C19.55 21 20 20.55 20 20C20 19.45 19.55 19 19 19Z"></path>
+  </g>
+  <defs>
+    <clipPath id="clip0_3812_70403">
+      <rect width="24" height="24" fill="white"></rect>
+    </clipPath>
+  </defs>
+</svg>
+
+           cannot touch each other, not even diagonally.
+
+
+            </div>
+          </div>
+
+</div></li>
+    </ul>
+        <div class="instructions-examples-controls-container">
+          <button disabled="" aria-label="Previous example" id="ember46" class="artdeco-button artdeco-button--circle artdeco-button--muted artdeco-button--1 artdeco-button--tertiary artdeco-button--disabled ember-view artdeco-pagination__button--previous instructions-examples-previous-control" type="button">        <svg role="none" aria-hidden="true" class="artdeco-button__icon " xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16" data-test-icon="chevron-left-small" data-rtl="true">
+<!---->
+    <use href="#chevron-left-small" width="16" height="16"></use>
+</svg>
+
+
+<span class="artdeco-button__text">
+
+</span></button>
+          <button aria-label="Next example" id="ember47" class="artdeco-button artdeco-button--circle artdeco-button--muted artdeco-button--1 artdeco-button--tertiary ember-view artdeco-pagination__button--next instructions-examples-next-control" type="button">        <svg role="none" aria-hidden="true" class="artdeco-button__icon " xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16" data-test-icon="chevron-right-small" data-rtl="true">
+<!---->
+    <use href="#chevron-right-small" width="16" height="16"></use>
+</svg>
+
+
+<span class="artdeco-button__text">
+
+</span></button>
+          <div class="visually-hidden" aria-live="assertive">Page 1 of 4</div>
+        </div>
+
+</div>
+
+  <div class="artdeco-carousel__pagination">
+    <div id="ember48" class="artdeco-carousel__pagination-inner artdeco-pagination ember-view"><!---->
+  <ul class="artdeco-pagination__pages artdeco-pagination__pages--dot">
+        <li data-test-pagination-page-btn="1" id="ember49" class="artdeco-pagination__indicator artdeco-pagination__indicator--dot active selected ember-view">  <button aria-current="true" aria-label="Page 1" type="button">
+    <span>1</span>
+  </button>
+
+</li>
+        <li data-test-pagination-page-btn="2" id="ember50" class="artdeco-pagination__indicator artdeco-pagination__indicator--dot ember-view">  <button aria-label="Page 2" type="button" data-ember-action="" data-ember-action-51="51">
+    <span>2</span>
+  </button>
+
+</li>
+        <li data-test-pagination-page-btn="3" id="ember52" class="artdeco-pagination__indicator artdeco-pagination__indicator--dot ember-view">  <button aria-label="Page 3" type="button" data-ember-action="" data-ember-action-53="53">
+    <span>3</span>
+  </button>
+
+</li>
+        <li data-test-pagination-page-btn="4" id="ember54" class="artdeco-pagination__indicator artdeco-pagination__indicator--dot ember-view">  <button aria-label="Page 4" type="button" data-ember-action="" data-ember-action-55="55">
+    <span>4</span>
+  </button>
+
+</li>
+  </ul>
+<!---->
+<!----></div>
+  </div>
+</section>
+
+
+      </div>
+    </div>
+
+
+    </div>
+
+  <div id="ember16" class="ember-view"><div id="ember17" class="ember-view"><!----></div></div>
+
+
+
+    <div id="ember18" class="ember-view"><!----></div>
+
+
+<!---->
+
+
+
+<!---->
+              </div>
+
+
+  </main>
+
+
+<!---->      </div>
+
+<!---->  </div>
+</div>
