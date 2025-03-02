@@ -17,8 +17,10 @@ def parse_html():
 def find_color(line):
     return line.split(',')[0].split('color')[1].strip()
 
+
 def board_length():
     return int(math.sqrt(len(parse_html())))
+
 
 def create_board():
     length = board_length()
@@ -87,5 +89,6 @@ def main():
     colors_list = unique_colors(board)
     fill_board(board, 0, colors_list)
     print_board(board)
+
 
 main()
