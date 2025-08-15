@@ -15,7 +15,7 @@ def parse_html():
 
 
 def find_color(line):
-    return line.split(',')[0].split('color')[1].strip()
+    return line.split(",")[0].split("color")[1].strip()
 
 
 def board_length():
@@ -55,7 +55,11 @@ def is_valid(board, i, j):
     directions = [(1, 0), (-1, 0), (0, 1), (0, -1), (1, 1), (-1, -1), (1, -1), (-1, 1)]
     for di, dj in directions:
         ni, nj = i + di, j + dj
-        if 0 <= ni < len(board) and 0 <= nj < len(board[0]) and board[ni][nj].startswith("-"):
+        if (
+            0 <= ni < len(board)
+            and 0 <= nj < len(board[0])
+            and board[ni][nj].startswith("-")
+        ):
             return False
     return True
 
@@ -91,4 +95,5 @@ def main():
     print_board(board)
 
 
-main()
+if __name__ == "__main__":
+    main()
